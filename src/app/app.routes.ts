@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
-import { TvshowsComponent } from './shared/components/tvshows/tvshows.component';
 import { MoviesComponent } from './shared/components/movies/movies.component';
 import { DetailedViewComponent } from './shared/components/detailed-view/detailed-view.component';
+import { TvShowsComponent } from './features/tv-shows/tv-shows.component';
 
 export const routes: Routes = [
     {
         path: '',
         title: 'App TV Shows',
-        component: TvshowsComponent,
+        component: TvShowsComponent,
       },
       {
         path: 'movies',
